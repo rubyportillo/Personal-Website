@@ -52,6 +52,16 @@ button {
 }
 
 h1,
-p {
+a {
 color:#bfabcb;
 }
+
+p {
+    text-emphasis: bolder;
+    text-size-adjust: 90px;
+    text-align: justify;
+    color:#bfabcb
+
+    
+}
+
