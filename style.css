@@ -2,24 +2,48 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #421820;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #bfabcb;
+    background-color: #421820;
 }
 
 nav {
     height: 80px;
     background: #bfabcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
 }
 
-a {
-    color: #a3bac3;
-    word-spacing: 0;
-    box-sizing:border-box;
-    margin: 2;
+nav a {
+    padding: 0 1.5rem;
+    color:  #7d3442;
+    background-color: #bfabcb;
 }
+
+
 
 button {
     background-color: #bfabcb;
+    color: #421820;
+    font-weight: 900;
     text-emphasis-color: #421820;
-    box-shadow: inset;
+    box-shadow: inset whitesmoke;
+    cursor: pointer;
+    border-radius: 60px;
 }
+
+
+.logo {
+   color: #421820; 
+   background-color: #bfabcb;
+   font-weight: bold;
+   text-shadow: #f6f6f6;
+   font-size: large;
+   text-decoration: wavy;
+}
+  
+
+
