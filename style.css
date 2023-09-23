@@ -9,7 +9,7 @@
 }
 
 nav {
-    height: 80px;
+    height: 50px;
     background: #bfabcb;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ color:#bfabcb;
 p {
     text-emphasis: bolder;
     text-size-adjust: 90px;
-    text-align: justify;
+    text-align: center;
     color:#bfabcb
 
     
